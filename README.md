@@ -63,3 +63,7 @@ Create project for component
     ng serve
 
 Copy .gitignore to fix security problem
+
+    commit 'Add component project'
+
+

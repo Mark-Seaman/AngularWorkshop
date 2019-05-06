@@ -125,3 +125,59 @@ Edit app/app.module.ts
     })
     export class AppModule { }
 
+## Page Project
+
+Goal: Build a page that composed of several block components
+
+Component Nesting
+
+* app
+    * header
+    * main
+    * footer
+    
+Each component may have
+
+    xxx.component.ts
+    xxx.component.html
+    xxx.component.css
+    
+header.component.ts
+
+    import { Component } from '@angular/core';
+
+    @Component({
+      selector: 'app-header',
+      templateUrl: './header.component.html',
+      styleUrls: ['./header.component.css']
+    })
+    
+    export class HeaderComponent {
+    }
+
+Using Embedded Template and Style -- header.component.ts
+
+import { Component } from '@angular/core';
+
+    @Component({
+      selector: 'app-header',
+      template: `
+        <header>
+            <h1>Embedded Template</h1>
+        </header>
+        `,
+      styles: [`
+        header {
+            background-color: blue;
+        }
+        h1 {
+            color: yellow;
+        }
+      `]
+    })
+    
+    export class HeaderComponent {
+    }
+
+
+    

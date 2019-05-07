@@ -1,0 +1,14 @@
+div * {
+    padding: 3em;
+    margin: 3em;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.form-control {
+    width: 300px;
+    text-align: left;
+}

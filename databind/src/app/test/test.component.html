@@ -1,0 +1,15 @@
+<h3>
+    {{ name }}
+</h3>
+<input type="text" class="form-control" (input)="onName($event)">
+<!--<input type="text" class="form-control" [(ngModel)]="name">-->
+
+<p>
+    {{ getReport() }}
+</p>
+
+<p>
+    {{ date }}
+</p>
+
+<button class="btn btn-primary" (click)="onRunTest()">Run Test</button>

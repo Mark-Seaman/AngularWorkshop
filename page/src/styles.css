@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* --------------------------
+        E L E M E N T S
+*/
+
+footer {
+    color: darkgrey;
+    padding: 2em;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px grey;
+}
+
+header {
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+    height: 200px;
+    margin: 2em;
+    padding: 3em;
+}
+
+header h1 {
+    color: yellow;
+}
+
+header h2 {
+    color: white;
+}
+
+main h1 {
+    color: green;
+}
+
+main {
+    padding: 2em;
+    border: solid 1px #eee;
+}
+
+
+/* --------------------------
+        C L A S S E S 
+*/
+
+.card {
+    width: 40%;
+    margin: 5%;
+}
+
+.content {
+    background-color: #eee;
+    box-shadow: 2px 2px 6px black;
+    padding: 2em;
+}
+
+.logo {
+    float: right;
+}
+
+.logo img {
+    border-radius: 20px;
+    box-shadow: -2px -2px 6px black;
+}

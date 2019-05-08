@@ -10,14 +10,6 @@ import { Component } from '@angular/core';
     </footer>
   `,
   
-  styles: [
-    `
-        footer {
-            color: blue;
-            padding: 2em;
-            text-align: center;
-        }
-    `]
 })
 
 

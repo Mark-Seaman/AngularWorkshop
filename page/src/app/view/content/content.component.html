@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+
+            <h1>Page Composition Demo</h1>
+            <p>An Angular app is created with a App Module that contains a number of different components that are visually nested on the display.</p>
+
+            <p>The <b>index.html</b> file contains the head and body for the app module. All other HTML content is defined as
+                components that are added to the index page.</p>
+
+            <h3>Components</h3>
+            <p>index.html contains the following components.</p>
+            <ul>
+                <li>
+                    app.component
+                </li>
+
+                <li>
+                    header.component
+                </li>
+
+                <li>
+                    footer.component
+                </li>
+
+                <li>
+                    main.component
+                </li>
+                <li>
+                    view.content.component
+                </li>
+            </ul>
+
+            <p>Each component has a <b>TS</b> file that defines the settings used by the components.</p>
+
+            <p>A corresponding <b>CSS</b> file defines the styles needed by the component. In this demo we reuse
+                the <b>app.component.css</b> file for each component.</p>
+
+            <p>Each component has its own <b>HTML file</b> to be used as a template.</p>
+
+            <div class="container">
+                <app-card></app-card>
+                <app-card></app-card>
+                <app-card></app-card>
+                <app-card></app-card>
+            </div>
+
+        </div>
+    </div>
+</div>

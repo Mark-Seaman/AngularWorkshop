@@ -2,8 +2,22 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./app.component.css']
+  
+  template:  
+  `
+    <footer>
+        Shrinking World Solutions
+    </footer>
+  `,
+  
+  styles: [
+    `
+        footer {
+            color: blue;
+            padding: 2em;
+            text-align: center;
+        }
+    `]
 })
 
 

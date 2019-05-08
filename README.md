@@ -180,4 +180,97 @@ import { Component } from '@angular/core';
     }
 
 
+
+## Data Binding
+
+Create project
+
+    ng new databind
     
+    cd databind
+    
+Fix security hole
+
+    echo 'package-lock.json' >> databind/.gitignore
+    
+Create test component
+
+    ng generate component test
+    
+    ng g c test
+    
+Types of data binding
+
+* String Interpolation
+* Property Binding
+* Event binding
+* Two-way data binding
+
+String Interpolation [TS]-->[HTML]
+
+Property Binding [TS]-->[HTML]
+
+Event binding [TS]<--[HTML]
+
+Two-way data binding [TS]<-->[HTML]
+
+
+
+## Directives
+
+    <div *ngIf="isActive">Thing is Active</div>
+    
+    <div [ngStyle]="{color: getColor()}">Thing is Active</div>
+    
+    <div [ngClass]="{active: isActive === 'online'}">Thing is Active</div>
+    
+    <div *ngFor="let i of items">{{ i }}</div>
+    
+
+
+## Sample App
+
+Build project
+
+    ng new workflow
+    
+    ng install --save bootstrap
+    
+Edit angular-cli.json to add bootstrap
+
+    apps styles bootstrap
+    
+Use emmet for quick typing
+
+    ng g c status --spec false
+    
+
+
+## View Components
+
+### Page Views
+* page
+* header
+* footer
+* menu
+* main
+
+### Data Views
+* list
+* detail
+* add
+* edit
+* delete
+
+### Container Views
+* card
+* box
+* tab
+* accordion
+* carousel
+
+### Content Views
+* markdown
+* csv
+* links
+

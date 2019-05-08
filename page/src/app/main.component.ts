@@ -8,6 +8,6 @@ import { ContentComponent } from './view/content/content.component';
 })
 
 export class MainComponent {
-    content = "<app-content></app-content>";
+       content = "<app-content></app-content>";
    /* new ContentComponent().innerText;*/
 }

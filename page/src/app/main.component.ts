@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ContentComponent } from './view/content/content.component'; 
+
 
 @Component({
   selector: 'app-main',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
 })
 
 export class MainComponent {
-    content = "MAIN CONTENT";
+    content = "<app-content></app-content>";
+   /* new ContentComponent().innerText;*/
 }

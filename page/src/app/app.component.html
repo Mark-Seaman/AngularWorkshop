@@ -1,6 +1,5 @@
-<!--<app-header></app-header>-->
-<app-header *ngIf="header"></app-header>
+<app-header [title]="title" [subtitle]="subtitle" [logo]="logo"></app-header>
 
-<app-main *ngIf="main"></app-main>
+<app-main></app-main>
 
-<app-footer *ngIf="footer"></app-footer>
+<app-footer [text]="footerText" [url]="footerLink"></app-footer>

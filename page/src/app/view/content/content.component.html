@@ -3,25 +3,8 @@
         <div class="col-md-12 content">
 
             <app-doc></app-doc>
-
-            <div class="container-fluid">
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Card Display</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <button class="btn btn-primary" (click)="onNewCard()">
-                            New Card
-                        </button>
-                    </div>
-                </div>
-                <div class="row">
-                    <app-card *ngFor="let card of cards" [content]="card"></app-card>
-                </div>
-            </div>
+            <hr>
+            <app-cards></app-cards>
 
         </div>
     </div>

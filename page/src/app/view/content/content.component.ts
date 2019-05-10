@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CardComponent } from '../card/card.component';
 
 
 @Component({
@@ -6,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './content.component.html'
 })
 
-export class ContentComponent implements OnInit {
 
-    constructor() { }
+export class ContentComponent{
 
-    ngOnInit() {
+    @Input() public html: string;
+    
+    cards = [];
+
+    onNewCard() {
+        var x = this.cards.length + 1;
+        this.cards.push({title: "Content Card "+x, body: "Body"});
     }
-
 }

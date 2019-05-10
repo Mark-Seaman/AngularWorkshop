@@ -10,15 +10,17 @@ import { MainComponent } from './main.component';
 
 export class AppComponent {
 
-    // Settings values
+    // Header
     title = 'Page Project Demo';
     subtitle = 'Angular Learning';
     logo = 'assets/SWS_Logo_200.jpg';
     header = new HeaderComponent();
     
+    // Footer
     footerText = 'Shrinking-World.com';
     footerLink = 'https://shrinking-world.com';
     footer = new FooterComponent();
     
+    // Main
     main = new MainComponent();
 }
